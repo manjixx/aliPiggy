@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: registry-service
+  cloud:
+    nacos:
+      discovery:
+        enable: true
+        service: registry-service
+        server-addr: 172.16.35.129:8848
+        namespace: 8a92e539-cd81-4918-a4d6-4fa82d47bb1f
+        username: nacos
+        password: nacos
+      config:
+        enable: true
+        server-addr: 172.16.35.129:8848
+        namespace: 8a92e539-cd81-4918-a4d6-4fa82d47bb1f
+        username: nacos
+        password: nacos
+        group: DEFAULT_GROUP # 组，默认为 DEFAULT_GROUP
+        file-extension: yaml
