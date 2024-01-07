@@ -7,29 +7,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="registry" />
         <module name="auth-service" />
+        <module name="config-service" />
         <module name="statistics-service" />
         <module name="turbine-stream-service" />
+        <module name="registry-service" />
+        <module name="gateway-service" />
+        <module name="monitor-service" />
         <module name="account-service" />
-        <module name="monitoring" />
-        <module name="config" />
-        <module name="gateway" />
         <module name="notification-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="config" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="account-service" options="-parameters" />
       <module name="auth-service" options="-parameters" />
-      <module name="config" options="-parameters" />
-      <module name="gateway" options="-parameters" />
-      <module name="monitoring" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="monitor-service" options="-parameters" />
       <module name="notification-service" options="-parameters" />
-      <module name="registry" options="-parameters" />
+      <module name="registry-service" options="-parameters" />
       <module name="statistics-service" options="-parameters" />
       <module name="turbine-stream-service" options="-parameters" />
     </option>

@@ -9,11 +9,11 @@
     <modules>
         <module>account-service</module>
         <module>auth-service</module>
-        <module>config</module>
-        <module>gateway</module>
-        <module>monitoring</module>
+        <module>config-service</module>
+        <module>gateway-service</module>
+        <module>monitor-service</module>
         <module>notification-service</module>
-        <module>registry</module>
+        <module>registry-service</module>
         <module>statistics-service</module>
         <module>turbine-stream-service</module>
     </modules>

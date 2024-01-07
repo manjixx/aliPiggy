@@ -15,7 +15,7 @@
 |限流熔断|Hystrix| Sentinel |
 |服务注册与发现|Spring Cloud Eurake|Nacos|
 |授权认证|Spring Cloud OAuth2| Spring Cloud OAuth2 |
-|配置中心|pring Cloud Config&&Apollo| Nacos |
+|配置中心|Spring Cloud Config&&Apollo| Nacos |
 |分布式调用链监控|Spring Cloud Sleuth| SkyWalking|
 |链路追踪|Zipkin|SkyWalking|
 |消息队列|RabbitMQ|RocketMQ|
